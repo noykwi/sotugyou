@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加速度センサー計測</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #status {
+            font-size: 1.2em;
+            color: #333;
+        }
+        #yesterday {
+            margin-top: 10px;
+            font-size: 1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>加速度センサー計測</h1>
+    <div id="status">センサーを待機中...</div>
+    <div id="yesterday">前日のスコア: データなし</div>
+    <button id="startButton">計測開始</button>
+    <button id="stopButton" disabled>計測停止</button>
+    <script src="app.js"></script>
+</body>
+</html>
